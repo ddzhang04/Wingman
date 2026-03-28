@@ -17,6 +17,18 @@ dist-ssr
 !.vscode/extensions.json
 .idea
 .DS_Store
+
+# Environment variable files
+.env
+.env.*
+*.env
+
+# Python virtualenv
+backend/.venv
+
+# Python cache
+__pycache__/
+*.pyc
 *.suo
 *.ntvs*
 *.njsproj
